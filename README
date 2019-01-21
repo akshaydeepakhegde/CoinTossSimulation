@@ -1,0 +1,71 @@
+Name: Akshay Deepak Hegde
+USC NetId: 8099460970
+CSCI 455 PA1
+Fall 2018
+
+----------------------------------------------
+CERTIFY IT'S YOUR WORK
+
+"I certify that the work submitted for this assignment does not
+violate USC's student conduct code.  In particular, the work is my
+own, not a collaboration, and does not involve code created by other
+people, except for the the resources explicitly mentioned in the CS 455
+Course Syllabus.  And I did not share my solution or parts of it with
+other students in the course."
+
+Initial below to "sign" the above statement:
+
+Akshay
+----------------------------------------------
+ACKNOWLEDGE ANY OUTSIDE SOURCES
+
+List here any code you submitted for this assignment that was written
+with significant help of a course staff member, or code used from the
+textbook.  Be specific about what methods or algorithms are involved,
+and what sections of the textbook are involved (if applicable): [you do
+not need to list any of the code that we wrote for the assignment,
+i.e., the contents of the starter files for the assignment]
+
+
+
+----------------------------------------------
+KNOWN BUGS or LIMITATIONS:
+
+
+Program stops responding for values more than 10000000000
+Program could not show proper bars in the window even though it showed correct values for number greater than 100000000
+----------------------------------------------
+ANY OTHER NOTES FOR THE GRADER:
+
+
+Could not test if I have used Font rendering codes(code snippet given in the assignment for dimension of the label) correctly.
+----------------------------------------------
+ANSWERS TO ASSIGNMENT README QUESTIONS (if applicable):
+
+1. In CS455 we are encouraged to study together however we are not allowed to include any code snippet from the web.
+Any code not written by me should be mentioned in the README file under outside sources used column.
+
+
+2. we can get following results if we toss two coins,
+HH
+TT
+HT
+TH
+So theoretically we can say that,
+
+probability of two heads = 0.25
+probability of one head and one tail = 0.5
+probability of two tails = 0.25
+ 
+
+3. To get the results mostly within the 1% of these probabilities, I would say number of trials should be atleast more than 500.
+Or in general trials more than 1000 gives almost the mentioned probabilities.
+
+
+4. The program worked for 1000000000(10^9) but very slow and sometimes says "Java se stopped responding"
+   The program crashed and gave the below error for value greater than 10000000000(10^10)
+   
+-->Exception in thread "main" java.util.InputMismatchException: For input string: "10000000000"
+	at java.util.Scanner.nextInt(Unknown Source)
+	at java.util.Scanner.nextInt(Unknown Source)
+	at CoinSimViewer.main(CoinSimViewer.java:22)
